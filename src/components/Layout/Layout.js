@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Collapse } from 'reactstrap';
 
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Auxiliary';
 import Header from '../Layout/Header/Header';
 import NavigationItem from '../Navigation/NavigationItem/NavigationItem';
 import DescriptiveTitle from '../Layout/DescriptiveTitle/DescriptiveTitle';
