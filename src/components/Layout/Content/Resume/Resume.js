@@ -20,7 +20,7 @@ const resume = (props) => (
         <div className="card-deck">
             <Station title="University of applied Science St. Augustin" description="Bachelor of Science: Informationssicherheit" position="Student" dates="03/2012 - 07/2014"/>
             <Station title="Southampton Solent University" description="TopUp Studium - Bachelor of Science: Computing" position="Student" dates="09/2010 - 11/2011"/>
-            <Station title="B.i.b. Bergisch Gladbach" description="Ausbildung zum Staatlich geprüften Informatiker Softwartechnologie" position="Auszubildender" dates="10/2008 - 09/2010"/>
+            <Station title="B.i.b. Bergisch Gladbach" description="Ausbildung zum Staatlich geprüften Informatiker Softwaretechnologie" position="Auszubildender" dates="10/2008 - 09/2010"/>
         </div>
       </div>
     </div>
