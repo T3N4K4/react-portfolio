@@ -1,0 +1,18 @@
+.portItem {
+    width: 30%;
+}
+
+.portItem:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.fa {
+    font-size: 2em;
+}
+
+@media(min-width:1199px){
+    .portItem{
+        padding: 3em !important;
+    }   
+}
