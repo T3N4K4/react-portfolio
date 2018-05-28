@@ -29,13 +29,13 @@ class Layout extends Component {
         if(index !== -1) {
             componentIDs.splice(index,1);
         }
- 
         for (let id of componentIDs){
-            this.setState({ shown: {
-                    ...this.state.shown,
-                    // TODO!!!!!: react/no-direct-mutation-state
-                    // eslint-disable-next-line 
-                    [id]: this.state.shown[id] = false
+            this.setState( (prevState, props) => { 
+                return {
+                    shown: {
+                        ...prevState.shown,
+                        [id]: prevState.shown[id] = false
+                    }
                 }
             });
         } 
