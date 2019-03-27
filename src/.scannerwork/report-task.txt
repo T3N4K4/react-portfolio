@@ -1,0 +1,7 @@
+organization=t3n4k4-github
+projectKey=T3N_Sonar_Test
+serverUrl=https://sonarcloud.io
+serverVersion=7.3.0.13955
+dashboardUrl=https://sonarcloud.io/dashboard?id=T3N_Sonar_Test
+ceTaskId=AWRGBW5D50xrSmAE6DHF
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWRGBW5D50xrSmAE6DHF
